@@ -35,9 +35,9 @@
     perfect-freehand "^1.0.4"
 
 "@iconify-json/carbon@^1.0.7":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@iconify-json/carbon/-/carbon-1.0.8.tgz#deb2912b4efcc664e97346890ddf2140553ec3df"
-  integrity sha512-C1DJbsObX9tLdalhzt5vlmqHWm6IE+58Yu6FSw+frYVuAKcw9VjhQBpJX7WxmJNK3Wy57Y1obUnkLb8xVip3oQ==
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@iconify-json/carbon/-/carbon-1.0.9.tgz#d7f7c3533e0ccc4e8e37e4e0371ccaf061ed2301"
+  integrity sha512-ZId8OBOIM8/nA+6NrpxgAWhNfVPY+hT+VlmVhZEXqwZoAkVS4ygB0bCBoanVV6OHA5wONc9hr6UnUQ990paQLA==
   dependencies:
     "@iconify/types" "^1.0.10"
 
@@ -343,11 +343,11 @@
   integrity sha512-5EQmIPK6gw4UVYUbM959B0uPsJ58+xoMESCZs3N89XyvJ9e+fX4pqEPrOGV8OroIk3SbEvJcC+eYc8BH9JQrHA==
 
 "@vueuse/core@^6.5.3", "@vueuse/core@^6.6.2":
-  version "6.7.5"
-  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-6.7.5.tgz#c3d8edbac8408b07bc28251c928a7a4b29a28325"
-  integrity sha512-zgWai0i38TbfWGMVs1ybyEEdwwhjjMloQflRTMU0+pTmp3kEtQTDiVZiOrr758s+yRdr2OQiMQ323dyiKgKMFQ==
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-6.8.0.tgz#dc004bc30031e053e9ef5011203c4a80f00986ed"
+  integrity sha512-C6KMBus29L/mVtA5eK26WAqj6tyPlugrKaPLi2uLtbV//BHjbxe1uo3gVXCc5SwouDEdc7zswlGPw/l0/++NRg==
   dependencies:
-    "@vueuse/shared" "6.7.5"
+    "@vueuse/shared" "6.8.0"
     vue-demi "*"
 
 "@vueuse/head@^0.6.0":
@@ -364,34 +364,34 @@
     popmotion "^10.0.1"
     vue-demi "*"
 
-"@vueuse/shared@6.7.5":
-  version "6.7.5"
-  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-6.7.5.tgz#0a604c06473db5445e46de18b1d7bb6d9ada4be9"
-  integrity sha512-wUDMPTGUSTYsbiftKq7dYLKD2i3n0m8utbHBCyoxdyeKsmtQGIM2/XeeXjtALB7UXD6rqPsVgCMepNrPPt8zvw==
+"@vueuse/shared@6.8.0":
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-6.8.0.tgz#50713b770941293e557a4eae9424cad2aad44a85"
+  integrity sha512-+YjehQ8Qe4Qgyq8iTToVOzp4sZBAZvScv3AGJSMi6HYbe54+nyjrRfS8DN4fA0eUahyftHKZ00WKgMe7TS5N0w==
   dependencies:
     vue-demi "*"
 
-"@windicss/config@1.4.12":
-  version "1.4.12"
-  resolved "https://registry.yarnpkg.com/@windicss/config/-/config-1.4.12.tgz#32842fe009b64176b004c83a93c5189066042c33"
-  integrity sha512-+ckfkRoWC8wia5o7iCyDmydiJEkjX6lVEb6a2QVPI9WQ9Mi7hqfgOoStijOsEn0wIz95FDiOfVe5aSb1V4jEtw==
+"@windicss/config@1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@windicss/config/-/config-1.5.1.tgz#e3fdaddfc553442c85f67f2e9290ef46ce87b3a1"
+  integrity sha512-nWNgvvJj9RcYhLcqwju/Z8FfaHRjyWHDYS3IgY7lWUM+vWTLFuKqhavKfC1589kdYjiO9JeX07Vg+YzfcxP0Yw==
   dependencies:
     debug "^4.3.2"
     jiti "^1.12.9"
-    windicss "^3.1.9"
+    windicss "^3.2.1"
 
-"@windicss/plugin-utils@1.4.12":
-  version "1.4.12"
-  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-1.4.12.tgz#9929369018c8660ee2f218c47cfa4b83f5174c59"
-  integrity sha512-ixYflwELxEjHyh0B9HqTwDp1d3v5IWtUucVY84o41ZU53BkuRw1lKbNlLMqbrtbk8p8rAQxjuwWZkWxFYi77tQ==
+"@windicss/plugin-utils@1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-1.5.1.tgz#9750bb72e8c14585e011d46a33351d47d8519e31"
+  integrity sha512-gxJiTCMKv1p1x4W2BLG2yfNe+DfIVPc8+aKvfCUCtOpdg5GB5yzhuAC4ROsKiXHxu4QXoojrh7jXH6ELlrELpQ==
   dependencies:
     "@antfu/utils" "^0.3.0"
-    "@windicss/config" "1.4.12"
+    "@windicss/config" "1.5.1"
     debug "^4.3.2"
     fast-glob "^3.2.7"
     magic-string "^0.25.7"
     micromatch "^4.0.4"
-    windicss "^3.1.9"
+    windicss "^3.2.1"
 
 ansi-regex@^5.0.1:
   version "5.0.1"
@@ -2223,9 +2223,9 @@ unplugin-vue-components@^0.16.0:
     unplugin "^0.2.13"
 
 unplugin@^0.2.13, unplugin@^0.2.18:
-  version "0.2.19"
-  resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-0.2.19.tgz#f1699b36eaef14be94cf5eb3babfe1cac37be67a"
-  integrity sha512-r5PDeBBecir99rhLFp1ftqIkp5afD91anweIlWtF5Ca46FJsn2kQczD93FdFJw79R6HSF5waeYo79bFOQ9GVhQ==
+  version "0.2.20"
+  resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-0.2.20.tgz#fd579b8f302459eb1ae3616f71c2ba93e6076187"
+  integrity sha512-CGnCaTqNjqeixpIlNEkpysxfR2hb4xv21xa4IURXnhYTfCp73UWuG0KcdanuhFJbwO5w+EGK4XaAaqdb/1vWbg==
   dependencies:
     webpack-virtual-modules "^0.4.3"
 
@@ -2263,14 +2263,14 @@ vite-plugin-vue-server-ref@^0.2.4:
     ufo "^0.7.9"
 
 vite-plugin-windicss@^1.4.12:
-  version "1.4.12"
-  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-1.4.12.tgz#a301fd554425042b5fdaec562bd11a5a0fcbf178"
-  integrity sha512-5YLT7e72z1vCTSmprU/KxtRg22ySN+H19Qxy67lbG3mEbq8YbheOlmVhbqNqSv2MjFVhFqu72Q1FkkjyWENyQQ==
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-1.5.1.tgz#bf15165da15cacadc3cdb8cc1a61d287cef2dc75"
+  integrity sha512-AUuRFT5Y7SfW9eclaKf5BOTZ7MMfkUZzOeVzqd9yq/uIwzWyleRtssCTuJgZ0+om+hnXn9YwcIpR26lsaasIbg==
   dependencies:
-    "@windicss/plugin-utils" "1.4.12"
+    "@windicss/plugin-utils" "1.5.1"
     chalk "^4.1.2"
     debug "^4.3.2"
-    windicss "^3.1.9"
+    windicss "^3.2.1"
 
 vite@^2.6.10:
   version "2.6.13"
@@ -2324,7 +2324,7 @@ which@^2.0.1:
   dependencies:
     isexe "^2.0.0"
 
-windicss@^3.1.9:
+windicss@^3.1.9, windicss@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/windicss/-/windicss-3.2.1.tgz#bd0f7b9ebabba04ea8dfedcbb0263c2ef9591db4"
   integrity sha512-LusrIrryBFHAPQ/OOTbS4EWWuzI6eGeJglI9nQ3kDBr1cqH69NWt8Z8q59f9kTkgptXroejmWfksWwqgHs8EVw==
